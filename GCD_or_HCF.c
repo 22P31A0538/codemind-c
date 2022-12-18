@@ -6,8 +6,7 @@ int main()
     for(i=1;i<=p&&i<=q;i++)
     {
         if(p%i==0&&q%i==0)
-        gcd=i;
-        
+         gcd=i;
     }
     printf("%d",gcd);
 }
