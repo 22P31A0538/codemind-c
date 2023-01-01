@@ -1,13 +1,13 @@
 #include<stdio.h>
-int main ()
+int main()
 {
-    int n,rev=0,rem; 
-    scanf ("%d",&n);
+    int n,r,rev=0;
+    scanf("%d",&n);
     while(n!=0)
     {
-        rem=n%10;
-        n=n/10;
-        rev=rev*10+rem;
+        r=n%10;
+        n/=10;
+        rev=rev*10+r;
     }
     printf("%d",rev);
 }
